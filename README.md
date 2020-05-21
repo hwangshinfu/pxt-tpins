@@ -1,1 +1,1 @@
-# pxt-tpins
+A test package to use test blocks such as test.
