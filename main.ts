@@ -16,4 +16,18 @@ namespace test_pins {
     export function digital_writepin(tname: DigitalPin, tvalue: number): void {
         pins.digitalWritePin(tname, tvalue)
     }
+    
+
+
+    //% weight=30
+    //% blockId=analogReadPin 
+    //% block="analog write pin |%tname| to |%tvalue"
+    //% tname.fieldEditor="gridpicker" 
+    //% tname.fieldOptions.columns=3 
+    //% tvalue.defl=0
+    //% tvalue.min=0
+    //% tvalue.max=255	
+    export function analogReadPin(tname: analogPin, tvalue: number): void {
+        pins.analogReadPin(tname, tvalue)
+    }
     }
